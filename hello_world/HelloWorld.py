@@ -6,8 +6,7 @@ print( "Sam", "Ghanem" )	# with a comma
 print( "Sam" + " " + "Ghanem" )	# with a +
 # 3. print "Hello 42!" with the number in a variable
 name = 42
-my_name = "Sam Ghanem"
-print(f"Hello", my_name +"!" )	# with a comma
+print(f"Hello", 42,"!" )	# with a comma
 number = "78"
 print(f"Hello", number + "!")	# with a +	-- this one should give us an error!
 number = "78"
