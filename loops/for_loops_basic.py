@@ -24,9 +24,9 @@ for x in range(2018,0,-4):
     print(x)
 
 
-low_num = 2
-high_num = 9
-mult = 3
-for x in range(low_num,high_num + 1):
-    if x % mult == 0:
-        print(x)
+def x_counterdown(low, high, mult):
+    for x in range (low, high + 1):
+        if x % mult == 0:
+            print(x)
+
+x_counterdown(2, 9, 3)
