@@ -10,9 +10,9 @@ class Pirate:
         print(f"Name: {self.name}\nStrength: {self.strength}\nSpeed: {self.speed}\nHealth: {self.health}\n")
 
     def attack ( self , ninja ):
-        if self.health <= -1 :
+        if self.health <= 0 :
             self.health = 0 
-            print(f"{self.name} GAME OVER Jack Sparrow!!!")
+            print(f"{self.name} GAME OVER!!!")
         elif self.speed >= 10:
             ninja.health -= (self.strength * 2)
             self.speed = 3
